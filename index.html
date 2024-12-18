@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#summary">Summary</a>
+        <a href="#technical-skills">Technical Skills</a>
+        <a href="#personal-skills">Personal Skills</a>
+        <a href="#projects">Projects</a>
+    </div>
+
+    <div class="container" id="about">
+        <div class="header">
+        <div>
+            <div class="cover-photo"></div>
+            <img class="myphoto" src="images/mypicture.jpg">
+            <h1>Renato Delmo</h1>
+             <h4 style="margin-top: -14px;">Nagtaluntong Lobo Batangas 4229</h4>
+            <span class="tags">09362130602</span>
+            <span class="tags">renatodelmo08@gmail.com</span>
+            
+            <br>
+            <br>
+        </br>
+            
+        </div>
+    </div>
+    
+    <div id="summary" class="card">
+        <h2>Summary</h2>
+        <p class="ren">Recent graduate seeking a challenging a career with a progressive organization that can benefit from my technical skills and abilities in the field of Information Technology (IT).</p>
+        
+    
+    </div>
+
+    <div  class="card">
+        <h2>Education</h2>
+
+        <table style="width: 100%;">
+            <thead>
+                <th>Elementary</th>
+                <th>Section</th>
+                <th>Year Graduated</th>
+                <th></th>
+            </thead>
+            <tbody>
+                <td>
+                    <img style="height: 120px;" src="images/nagtaluntong.jpg" class="school">
+                </td>
+                <td>Section A</td>
+                <td>2012</td>
+                <td></td>
+            </tbody>
+        </table>
+
+        <table style="width: 100%;">
+            <thead>
+                <th>Highschool</th>
+                <th>Section</th>
+                <th>Year Graduated</th>
+                <th></th>
+            </thead>
+            <tbody>
+                <td>
+                    <img style="height: 120px;" src="images/lord.png" class="school">
+                </td>
+                <td>Section B</td>
+                <td>2016</td>
+                <td></td>
+            </tbody>
+        </table>
+
+        <table style="width: 100%;">
+            <thead>
+                <th>Senior High</th>
+                <th>Section</th>
+                <th>Year Graduated</th>
+                
+            </thead>
+            <tbody>
+                <td>
+                    <img style="height: 120px;" src="images/lord.png" class="school">
+                </td>
+                <td>1-A</td>
+                <td>2018</td>
+                
+            </tbody>
+        </table>
+
+        <table style="width: 100%;">
+            <thead>
+                <th>Collage</th>
+                <th>Section</th>
+                <th>Year Graduated</th>
+                
+            </thead>
+            <tbody>
+                <td>
+                    <img style="height: 120px;" src="images/west.png" class="school">
+                </td>
+                <td>411</td>
+                <td>2025</td>
+                
+            </tbody>
+        </table>
+
+    </div>
+    
+    <div id="technical-skills" class="card">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Knowledge in (HTML, 
+                CSS,PHP)</li>
+            <li>Hardware & Software 
+                Troubleshooting</li>
+            <li>Microsoft Office (MS 
+                Word, Excel, 
+                PowerPoint)</li>
+        </ul>
+    </div>
+    
+    <div id="personal-skills" class="card">
+        <h2>Personal Skills</h2>
+    <ul>
+        <li>Flexible and Willing to 
+            be Trained
+            </li>
+        <li>Time Management</li>    
+        <li>Hardworking</li>
+        <li>Ability to work 
+            independently and as a 
+            part of a team</li>
+    </ul>
+    </div>
+    
+    <div class="card">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Epson Precision</li>
+            <p>Team Leader 2016-2018</p>
+            <li>Chiyoda 2</li>
+            <p>Production Operartor 2019-2021</p>
+        </ul>   
+    </div>
+
+    <div class="card">
+        <h2>Seminar</h2>
+        <ul>
+            <p>ISITE-2023</p>
+            <p>JARVIS</p>
+            <p>BITS-2023</p>
+            <p>BITS-2024</p>
+            <p>HACKIN KNL</p>
+            <p>Y4IT RESEARCH</p>
+            <p>UNLOCKING SUCCESS IN THE 21st CENTURY BUSINESS ENVIROMENT</p>
+        </ul>   
+    </div>
+    <body>
+        <div class="gg" id="projects">
+          <strong><p class="w">PROJECTS</p></strong>
+        <strong><p>CHECK BIRTHDATE</p></strong>
+        <input id="input" placeholder="Enter the date">
+        <button onclick="ggInput()">Click Me</button>
+        <p id="result"Result></p>
+
+        <strong><p>CALCULATOR</p></strong>
+        <p id="myId"></p>
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+        <button onclick="newFunction('+')">+</button>
+        <button onclick="newFunction('-')">-</button>
+        <button onclick="newFunction('*')">*</button>
+        <button onclick="newFunction('/')">/</button>
+        <script src="myjavascript.js"></script>
+
+        <strong><p>CHECK LEGAL AGE AND MINOR AGE</p></strong>
+        <input id="gg" placeholder="My First input">
+        <button onclick="GGinputFunction()">Click Me</button>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <strong><p>POKE API</p></strong>
+
+            <input type="text" name="myNameInput" placeholder="Enter pokemon name">
+    
+            <button id="getData">Search</button>
+    
+            <ul id="myList"></ul>
+    
+            <div id="details"></div>
+    </body>
+</div>
+
+
+</body>
+</html>
